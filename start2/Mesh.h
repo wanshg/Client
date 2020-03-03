@@ -44,19 +44,24 @@ enum MESH_TYPE {
 //供固定网格使用
 class Mesh
 {
-	struct t_weight {
+	struct t_Cluster {
 		std::string boneName;
 		std::vector<unsigned short> vertIds;
 		std::vector<float> weights;
+
+
+		std::vector<unsigned short>& GetControlPointIndices() { return vertIds; }
+		std::vector<float>& GetControlPointWeights() { return weights; };
 	};
 public:
-	std::vector <t_weight> weights;
-	void setWeights(std::vector<t_weight> _weights) {
-		weights.swap(_weights);
+	std::vector <t_Cluster> clusters;
+	void setWeights(std::vector<t_Cluster> _weights) {
+		clusters.swap(_weights);
 	}
-	void setWeight(std::string& name, unsigned short vertId, float weights) {};
-	float getWeight(std::string& name, unsigned short vertId) {
-		for (auto w : weights) {
+	int GetClusterCount() { return clusters.size(); }
+	void setCluster(std::string& name, unsigned short vertId, float weights) {};
+	float getCluster(std::string& name, unsigned short vertId) {
+		for (auto w : clusters) {
 			if (w.boneName == name) {
 				for (int i = 0; i < w.vertIds.size(); i++) {
 					if (w.vertIds.at(i) == vertId) {
@@ -68,8 +73,8 @@ public:
 		}
 		return 0;
 	};
-	t_weight* getWeight(std::string& name) {
-		for (auto w : weights) {
+	t_Cluster* getCluster(std::string& name) {
+		for (auto w : clusters) {
 			if (w.boneName == name) {
 				return &w;
 			}

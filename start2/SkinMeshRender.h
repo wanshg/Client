@@ -8,9 +8,13 @@
 class SkinMeshRender : public Component
 {
 public:
-	struct t_bone {
+	struct t_Clusterbone {
 		GameObject* bone;
-		Matrix4 BoneRelativeRootMatrixInv_Init;
+
+		Matrix4 lClusterGlobalInitPosition;
+		//Matrix4 lReferenceGlobalInitPosition;
+
+		//Matrix4 BoneRelativeRootMatrixInv_Init;
 		Matrix4 ObjRelativeBoneMatrix_Init;//初始时对象相对于该骨骼矩阵
 	};
 public:
@@ -31,7 +35,9 @@ public:
 
 	void Init();
 	void Calum();
-
+	void Calum2();
+	void ComputeClusterDeformation(t_Cluster* lCluster, Matrix4& pVertexTransformMatrix);
+	void ComputeLinearDeformation();
 
 private:
 	GameObject* root;
@@ -40,7 +46,9 @@ private:
 	Material* mat;
 	PrimitiveRender* render;
 
-	std::vector<t_bone> Bones;
+	std::vector<t_Clusterbone> Pose;
 	bool inited;
+
+	Matrix4 lReferenceGlobalInitPosition;
 };
 #endif
