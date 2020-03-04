@@ -1,0 +1,79 @@
+https://zhuanlan.zhihu.com/p/42781261
+https://zhuanlan.zhihu.com/p/74726921
+http://gad.qq.com/u/profile/438905
+https://gameinstitute.qq.com/community/detail/106151
+https://www.cnblogs.com/yangrouchuan/p/7574405.html
+https://blog.csdn.net/u014794120/article/details/82775792 火
+https://blog.csdn.net/qq_36107199/article/details/87191348  perlinNoise
+https://ke.qq.com/course/391305?taid=3264299699402889
+
+https://blog.csdn.net/yangxuan0261/article/details/90534723 水
+http://www.6m5m.com/service-sid-18375.html
+https://blog.csdn.net/yangxuan0261/article/category/9289139/1
+
+https://www.jianshu.com/p/fea6c9fc610f  表面凹凸技术汇总
+https://blog.csdn.net/linjf520/article/details/94428797 偏导函数
+https://blog.csdn.net/puppet_master/article/details/53591167#t2  Unity Shader-法线贴图（Normal）及其原理
+https://www.cgjoy.com/thread-184894-1-1.html 	Unity插件TextMesh Pro功能亮点介绍 
+https://www.jianshu.com/p/a7b6f93f121f		基于2D SDF的体积字实现
+http://www.xuanyusong.com/archives/4331	Unity3D游戏优化之头顶UI
+https://www.cnblogs.com/murongxiaopifu/p/9175936.html		Signed Distance Field Shadow in Unity
+
+http://geekfaner.com/unity/blog9_AA.html
+
+https://blog.csdn.net/yinfourever/article/details/90777743   Unity SRP自定义渲染管线
+https://blog.csdn.net/yinfourever/article/details/94629153	Unity SRP自定义渲染管线3
+
+https://blog.csdn.net/puppet_master/article/details/80808486 	unity Shader-反射效果（CubeMap，Reflection Probe，Planar Reflection，Screen Space Reflection）
+
+https://blog.csdn.net/z18636930051/article/details/75105422	unity玉石渲染
+
+https://github.com/QianMo/Game-Programmer-Study-Notes
+
+https://item.taobao.com/item.htm?id=589334471171&ali_trackid=2:mm_14364811_3440779_59046457:1574648785_126_2066828898&ak=23421596
+
+
+------------------------------------------------------------------------------------------------
+http://www.microlensyh.com/index_Showone.action?message.id=9213
+
+http://www.scriptspot.com/3ds-max/scripts
+https://www.cgzixue.cn/forum.php?mod=viewthread&tid=5556 
+http://h.shanse8.com/
+http://www.6m5m.com/service-sid-13106.html
+https://www.biubiuiu.com/thread-9281-1-2.html
+http://www.cgylw.com/forum-107-2.html
+http://www.manew.com/thread-142971-1-1.html
+https://www.byzhihuo.com/thread-25599-1-1.html
+http://www.manew.com/thread-139954-1-1.html
+https://www.cgjoy.com/thread-155248-1-1.html
+http://www.cgplusplus.com/bbs/viewthread.php?tid=228
+https://study.163.com/course/introduction.htm?courseId=1208981802#/courseDetail?tab=1
+
+https://zhuanlan.zhihu.com/p/34207965	《Real-Time Rendering 3rd》提炼总结
+
+_BFMG1p_MOUTH_D_cc
+https://www.cgjoy.com/thread-214858-1-1.html
+
+
+NDK
+https://www.jianshu.com/p/92fdedddd177
+http://blog.sina.com.cn/s/blog_65a8ab5d0102v1en.html
+
+多光源阴影
+https://www.cnblogs.com/liangliangh/p/4131103.html
+https://www.cnblogs.com/liangliangh/p/4165228.html
+
+//PBR
+https://zhuanlan.zhihu.com/p/79800363
+https://www.cnblogs.com/timlly/p/10631718.html?from=timeline&isappinstalled=0
+https://freepbr.com/
+https://www.cnblogs.com/jerrycg/p/4948879.html
+
+//流体
+https://zhuanlan.zhihu.com/p/38280537
+
+https://zhuanlan.zhihu.com/p/57897827?utm_source=wechat_session 皮毛
+
+//shader 网站
+https://www.shadertoy.com	
+http://glslsandbox.com/
